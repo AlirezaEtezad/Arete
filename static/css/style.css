@@ -1,0 +1,45 @@
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.navbar {
+    background-color: #6a0dad;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #ccc !important;
+}
+
+.jumbotron {
+    background-color: #e6e6fa;
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #6a0dad;
+    border-color: #6a0dad;
+}
+
+.btn-primary:hover {
+    background-color: #5b0ba3;
+    border-color: #5b0ba3;
+}
+
+footer {
+    background-color: #6a0dad;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.post {
+    margin-bottom: 20px;
+}

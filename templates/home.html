@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Alireza Etezad</h1>
+        <img src="{{ url_for('static', filename='images/me.jpg') }}" alt="Your Image" class="img-fluid rounded-circle">
+        <p class="lead">A simple python developer, in love with exploring the nature on a bike. </p>
+        <a class="btn btn-primary btn-lg" href="{{ url_for('resume') }}" role="button">Download Resume</a>
+    </div>
+</div>
+{% endblock %}
