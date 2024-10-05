@@ -15,3 +15,7 @@ pip install -r requirements.txt
 ```sh
 flask --app app run --debug
 ```
+
+API:
+```sh
+http://localhost:5000/api/personal-info
